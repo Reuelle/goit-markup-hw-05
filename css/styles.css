@@ -729,7 +729,35 @@ box-sizing: border-box;
 margin-left: 427px;
     }
     .button1 {
+        width: 70px;
+        height: 24px;
+        background-color: tomato;
+        color: var(--IRIS, #4D5AE5);
+        text-align: center;
+        
+        /* Button Text */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+        letter-spacing: 0.64px;
+    }
+    .container .button1 {
         width: 116px;
+        height: 48px;
+        display: flex;
+        padding: 12px 24px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+border: 1px solid var(--CORNFLOWER, #E7E9FC);
+background: var(--CLOUD, #F4F4FD);
+margin-left: 24px;
+box-sizing: border-box;
+    }
+    .container .button2 {
+        width: 78px;
         height: 48px;
         margin-left: 24px;
         display: flex;
@@ -739,8 +767,9 @@ align-items: center;
 border-radius: 4px;
 border: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: var(--CLOUD, #F4F4FD);
-box-sizing: border-box;
-color: var(--IRIS, #4D5AE5);
+    }
+    .button2 {
+        color: var(--IRIS, #4D5AE5);
 text-align: center;
 
 /* Button Text */
@@ -750,4 +779,53 @@ font-style: normal;
 font-weight: 500;
 line-height: 24px; /* 150% */
 letter-spacing: 0.64px;
+    }
+    .container .button3 {
+        width: 101px;
+        height: 48px;
+        margin-left: 24px;
+        display: flex;
+padding: 12px 24px;
+justify-content: center;
+align-items: center;
+border-radius: 4px;
+border: 1px solid var(--CORNFLOWER, #E7E9FC);
+background: var(--CLOUD, #F4F4FD);
+    }
+    .button3 {
+        color: var(--IRIS, #4D5AE5);
+text-align: center;
+
+/* Button Text */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.64px;
+    }
+    .container .button4 {
+        width: 126px;
+        height: 48px;
+        display: flex;
+padding: 12px 24px;
+justify-content: center;
+align-items: center;
+border-radius: 4px;
+border: 1px solid var(--CORNFLOWER, #E7E9FC);
+background: var(--CLOUD, #F4F4FD);
+margin-left: 24px;
+    }
+    .button4 {
+        color: var(--IRIS, #4D5AE5);
+text-align: center;
+
+/* Button Text */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.64px;
+background-color: tomato;
     }
