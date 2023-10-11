@@ -866,5 +866,25 @@ letter-spacing: 0.32px;
  .card3 {
         margin-left: 24px;
     }
+     h3 {
+        display: flex
+        background-color: tomato;
+    }
+     .bank {
+        width: 290px;
+        height: 24pc;
+        display: block;
+        box-sizing: border-box;
+    }
+    .cash {
+        width: 172px;
+        height: 24px;
+        display: block;
+    }
+    .med {
+        width: 143px;
+        height: 24px;
+    }
     
+
 
