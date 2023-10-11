@@ -838,3 +838,33 @@ font-weight: 500;
 line-height: 24px; /* 150% */
 letter-spacing: 0.64px;
     }
+    .card-first {
+        display: flex;
+        margin-top: 72px;
+        margin-left: 156px;
+        gap: 24px;
+    }
+    .card2-box {
+        width: 360px;
+height: 300px;
+flex-shrink: 0;
+background: var(--IRIS, #4D5AE5);
+padding-top: 40px;
+padding-left: 32px;
+    }
+    .card2-box p {
+        width: 296px;
+        color: var(--CLOUD, #F4F4FD);
+/* Body */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+    }
+ .card3 {
+        margin-left: 24px;
+    }
+    
+
