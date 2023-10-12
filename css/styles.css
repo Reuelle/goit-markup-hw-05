@@ -840,7 +840,7 @@ letter-spacing: 0.64px;
         margin-left: 156px;
         gap: 24px;
     }
-    .overlay {
+    .card-first .overlay {
     position: absolute;
   bottom: 0;
   left: 0;
