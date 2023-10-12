@@ -673,7 +673,7 @@ position: absolute;
     footer > .container-icon {
         display: flex;
     }
-    .container-icon > .last {
+    .last {
         color: var(--CLOUD, #F4F4FD);
         /* Body */
         font-family: Roboto;
@@ -958,6 +958,7 @@ box-sizing: border-box;
     padding-right: 16px;
     gap: 24px;
     margin-top: 32px;
+    box-sizing: border-box;
 }
 .CardA .card-container2 .taxi {
     width: 360px;
