@@ -1024,13 +1024,13 @@ letter-spacing: 0.32px;
     display: flex;
     gap: 24px;
 }
-.card-container2 {
+.card-container3 {
     display: flex;
     margin-left: 156px;
     gap: 24px;
     margin-top: 32px;
 }
-.Taxi h3{
+.stories h3{
     width: 360px;
     height: 24px;
     box-sizing: border-box;
@@ -1044,33 +1044,33 @@ font-weight: 500;
 line-height: 24px; /* 120% */
 letter-spacing: 0.4px;
 }
-.app-container2 {
+.app-container3 {
     display: flex;
     padding-right: 16px;
 margin-top: 8px;
 }
-.app3 p{
+.app6 p{
     width: 360px;
     height: 24px;
     padding-left: 16px;
     padding-right: 16px;
     margin-left: 156px;
 }
-.app4 {
+.app7 p {
     width: 360px;
     height: 24px;
     padding-left: 16px;
     padding-right: 16px;
     margin-left: 24px;
 }
-.app5 {
+.app8 p {
     width: 360px;
     height: 24px;
     padding-left: 16px;
     padding-right: 16px;
     margin-left: 24px;
 }
-.app-container2 > p {
+.app-container3 > p {
     color: var(--SLATE, #434455);
 /* Body */
 font-family: Roboto;
