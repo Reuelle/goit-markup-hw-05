@@ -869,13 +869,15 @@ letter-spacing: 0.32px;
   
     .card-container {
         display: flex;
-        margin-left: 156px;
-        padding-left: 16px;
         padding-right: 16px;
+        margin-left: 156px;
+        margin-top: 32px;
     }
     
-    .bank {
+    .bank h3{
         width: 360px;
+        padding-left: 16px;
+        padding-right: 16px;
         box-sizing: border-box;
         color: var(--NAVY-BLUE, #2E2F42);
 /* Header 3 */
@@ -886,11 +888,13 @@ font-weight: 500;
 line-height: 24px; /* 120% */
 letter-spacing: 0.4px;
     }
-    .cash {
+    .cash h3{
+        box-sizing: border-box;
+        padding-left: 16px;
+        padding-right: 16px;
         width: 360px;
         margin-left: 24px;
         color: var(--NAVY-BLUE, #2E2F42);
-padding-left: 0;
         /* Header 3 */
         font-family: Roboto;
         font-size: 20px;
@@ -900,7 +904,9 @@ padding-left: 0;
         letter-spacing: 0.4px;
     }
     
-    .med {
+    .med h3{
+        padding-left: 16px;
+        padding-right: 16px;
         width: 360px;
         margin-left: 24px;
         color: var(--NAVY-BLUE, #2E2F42);
@@ -915,23 +921,26 @@ padding-left: 0;
     .app-container {
         display: flex;
         margin-left: 156px;
+    margin-top: 8px;
+    }
+    .app p{
+        width: 360px;
+        height: 24px;
         padding-left: 16px;
         padding-right: 16px;
-    margin-top: 8px;
-    background-color: tomato;
     }
-    .app {
+    .app1 p{
         width: 360px;
         height: 24px;
-    }
-    .app1 {
-        width: 360px;
-        height: 24px;
+        padding-left: 16px;
+        padding-right: 16px;
         margin-left: 24px;
     }
-    .app2 {
+    .app2 p{
         width: 360px;
         height: 24px;
+        padding-left: 16px;
+        padding-right: 16px;
         margin-left: 24px;
     }
     p {
@@ -958,7 +967,7 @@ box-sizing: border-box;
     gap: 24px;
     margin-top: 32px;
 }
-.Taxi {
+.Taxi h3{
     width: 360px;
     height: 24px;
     box-sizing: border-box;
@@ -974,23 +983,28 @@ letter-spacing: 0.4px;
 }
 .app-container2 {
     display: flex;
-    margin-left: 156px;
-    padding-left: 16px;
     padding-right: 16px;
 margin-top: 8px;
 }
-.app3 {
+.app3 p{
     width: 360px;
     height: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 156px;
 }
 .app4 {
     width: 360px;
     height: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
     margin-left: 24px;
 }
 .app5 {
     width: 360px;
     height: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
     margin-left: 24px;
 }
 .app-container2 > p {
@@ -1003,6 +1017,70 @@ font-weight: 400;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
 }
+.card-third {
+    margin-left: 156px;
+    margin-top: 80px;
+    height: 300px;
+    display: flex;
+    gap: 24px;
+}
+.card-container2 {
+    display: flex;
+    margin-left: 156px;
+    gap: 24px;
+    margin-top: 32px;
+}
+.Taxi h3{
+    width: 360px;
+    height: 24px;
+    box-sizing: border-box;
+    padding-left: 16px;
+    color: var(--NAVY-BLUE, #2E2F42);
+/* Header 3 */
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 120% */
+letter-spacing: 0.4px;
+}
+.app-container2 {
+    display: flex;
+    padding-right: 16px;
+margin-top: 8px;
+}
+.app3 p{
+    width: 360px;
+    height: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 156px;
+}
+.app4 {
+    width: 360px;
+    height: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 24px;
+}
+.app5 {
+    width: 360px;
+    height: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 24px;
+}
+.app-container2 > p {
+    color: var(--SLATE, #434455);
+/* Body */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+}
+
 
 
 
