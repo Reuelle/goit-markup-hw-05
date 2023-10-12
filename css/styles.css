@@ -866,5 +866,43 @@ letter-spacing: 0.32px;
  .card3 {
         margin-left: 24px;
     }
+  
+    .card-container {
+        display: flex;
+        margin-left: 172px;
+    }
+    
+    .bank {
+        box-sizing: border-box;
+        color: var(--NAVY-BLUE, #2E2F42);
+/* Header 3 */
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 120% */
+letter-spacing: 0.4px;
+display: block;
+    }
+    .cash {
+        margin-left: 24px;
+        width: 250px;
+        margin-left: 40px;
+        color: var(--NAVY-BLUE, #2E2F42);
+padding-left: 0;
+        /* Header 3 */
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 120% */
+        letter-spacing: 0.4px;
+        height: 24px;
+        background-color: tomato;
+    }
+    .med {
+
+    }
+
     
 
