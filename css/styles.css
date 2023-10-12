@@ -869,10 +869,13 @@ letter-spacing: 0.32px;
   
     .card-container {
         display: flex;
-        margin-left: 172px;
+        margin-left: 156px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
     
     .bank {
+        width: 360px;
         box-sizing: border-box;
         color: var(--NAVY-BLUE, #2E2F42);
 /* Header 3 */
@@ -882,12 +885,10 @@ font-style: normal;
 font-weight: 500;
 line-height: 24px; /* 120% */
 letter-spacing: 0.4px;
-display: block;
     }
     .cash {
+        width: 360px;
         margin-left: 24px;
-        width: 250px;
-        margin-left: 40px;
         color: var(--NAVY-BLUE, #2E2F42);
 padding-left: 0;
         /* Header 3 */
@@ -897,12 +898,41 @@ padding-left: 0;
         font-weight: 500;
         line-height: 24px; /* 120% */
         letter-spacing: 0.4px;
-        height: 24px;
-        background-color: tomato;
     }
+    
     .med {
-
+        width: 360px;
+        margin-left: 24px;
+        color: var(--NAVY-BLUE, #2E2F42);
+        /* Header 3 */
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 120% */
+        letter-spacing: 0.4px;
     }
+    .app-container {
+        display: flex;
+        margin-left: 156px;
+        padding-left: 16px;
+        padding-right: 16px;
+        gap: 24px;
+    }
+    .app {
+        width: 20px;
+        margin-top: 8px;
+color: var(--SLATE, #434455);
+/* Body */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+box-sizing: border-box;
+    }
+
 
     
 
