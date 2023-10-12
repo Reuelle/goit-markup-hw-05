@@ -951,13 +951,20 @@ box-sizing: border-box;
     display: flex;
     gap: 24px;
 }
-.card-second > .card5 {
-    margin-left: 50px;
-    display: block;
+.card-container2 {
+    display: flex;
+    margin-left: 156px;
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 24px;
+    margin-top: 32px;
 }
-img .card6 {
-    margin-left: 24px;
+.CardA .card-container2 .taxi {
+    width: 360px;
+    box-sizing: border-box;
+    background-color: tomato;
 }
+
 
 
     
