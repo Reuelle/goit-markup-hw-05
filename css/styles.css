@@ -141,17 +141,17 @@ bottom-bottom: 3px solid --NAVY-BLUE;
 a.connect-1:hover, a.connect-1:active {
     color: darkblue;
     border-bottom: 3px solid blue;
-    height: 50px;
+    height: 40px;
 }
 a.connect-2:hover, a.connect-2:active {
     color: darkblue;
     border-bottom: 3px solid blue;
-    height: 50px;
+    height: 40px;
 }
 a.connect-3:hover, a.connect-3:active {
     color: darkblue;
     border-bottom: 3px solid blue;
-    height: 50px;
+    height: 40px;
 }
 
 .contact-info > ul{
