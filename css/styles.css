@@ -840,7 +840,12 @@ letter-spacing: 0.64px;
         margin-left: 156px;
         gap: 24px;
     }
-    .card-first .overlay {
+    .image {
+        position: absolute;
+        width: 360px;
+        height: 300px;
+    }
+    .card3.overlay {
     position: absolute;
   bottom: 0;
   left: 0;
