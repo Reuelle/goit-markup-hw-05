@@ -132,22 +132,16 @@ box-sizing: border-box;
 .target > a {
  text-decoration: none;
 }
-a.connect-1:hover, a.connect-1:active {
+a.connect-1:hover ,a.connect-2:hover, a.connect-3:hover{
     color: darkblue;
     border-bottom: 3px solid blue;
     height: 40px;
 }
-a.connect-2:hover, a.connect-2:active {
+a.connect-1.active ,a.connect-2.active ,a.connect-3.active {
     color: darkblue;
     border-bottom: 3px solid blue;
     height: 40px;
 }
-a.connect-3:hover, a.connect-3:active {
-    color: darkblue;
-    border-bottom: 3px solid blue;
-    height: 40px;
-}
-
 .contact-info > ul{
     width: 345px;
     margin-left: 332px;
