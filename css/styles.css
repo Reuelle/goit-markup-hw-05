@@ -871,7 +871,8 @@ letter-spacing: 0.64px;
         height: 100%;
       }
       .text-card1 {
-        color: white;
+        color: var(--CLOUD, #F4F4FD);
+        font-family: Roboto;
         font-size: 20px;
         position: absolute;
         top: 50%;
