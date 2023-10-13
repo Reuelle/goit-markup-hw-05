@@ -834,13 +834,34 @@ font-weight: 500;
 line-height: 24px; /* 150% */
 letter-spacing: 0.64px;
     }
-    .card-first {
-        display: flex;
-        margin-top: 72px;
+    .Card-first {
         margin-left: 156px;
+        margin-top: 80px;
+        height: 300px;
+        display: flex;
         gap: 24px;
     }
-    .card1-first ,.card2-box ,.card3-first {
+    .card-container {
+        display: flex;
+        margin-left: 156px;
+        gap: 24px;
+        margin-top: 32px;
+    }
+    .bank h3{
+        width: 360px;
+        height: 24px;
+        box-sizing: border-box;
+        padding-left: 16px;
+        color: var(--NAVY-BLUE, #2E2F42);
+    /* Header 3 */
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.4px;
+    }
+    .card1-first ,.card2-first ,.card3-first {
         position: relative;
         width: 360px;
     }
@@ -902,28 +923,7 @@ letter-spacing: 0.32px;
     }
  .card3 {
         margin-left: 24px;
-
-     h3 {
-        display: flex
-        background-color: tomato;
-    }
-     .bank {
-        width: 290px;
-        height: 24pc;
-        display: block;
-        box-sizing: border-box;
-    }
-    .cash {
-        width: 172px;
-        height: 24px;
-        display: block;
-    }
-    .med {
-        width: 143px;
-        height: 24px;
-    }
-=======
-  
+ }
     .card-container {
         display: flex;
         padding-right: 16px;
