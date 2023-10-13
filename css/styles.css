@@ -865,7 +865,7 @@ letter-spacing: 0.64px;
         overflow: hidden;
         width: 360px;
         height: 0;
-        transition: .5s ease;
+        transition: .3s ease;
       }
       .card1-first:hover .overlay-card1 {
         height: 100%;
@@ -882,7 +882,7 @@ letter-spacing: 0.64px;
         transform: translate(-50%, -50%);
         text-align: center;
       }
-    .image {
+    .image .card1 {
         position: absolute;
         width: 360px;
         height: 300px;
