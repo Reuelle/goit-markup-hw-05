@@ -129,12 +129,6 @@ box-sizing: border-box;
     margin-top: 24px;
     padding-left: 0;
 }
-.main a:hover {
-bottom-bottom: 3px solid --NAVY-BLUE;
-}
-.main a:active {
-    bottom-border: 3px solid --NAVY-BLUE;
-}
 .target > a {
  text-decoration: none;
 }
@@ -1106,7 +1100,7 @@ letter-spacing: 0.32px;
     position: relative;
     width: 360px;
 }
-.overlay-card5face ,.overlay-card5fruit ,.overlay-card5coffee{
+.overlay-card5face ,.overlay-card5fruit ,.overlay-card5coffee {
     position: absolute;
     bottom: 0;
     left: 0;
