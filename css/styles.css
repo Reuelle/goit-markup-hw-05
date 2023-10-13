@@ -1003,6 +1003,42 @@ line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
 box-sizing: border-box;
     }
+    .card4taxi ,.card4phone ,.card4smile {
+        position: relative;
+        width: 360px;
+    }
+    .overlay-card4taxi ,.overlay-card4phone ,.overlay-card4smile{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 100;
+        background-color: #008CBA;
+        overflow: hidden;
+        width: 360px;
+        height: 0;
+        transition: .3s ease;
+      }
+      .card4taxi:hover .overlay-card4taxi {
+        height: 100%;
+      }
+      .card4phone:hover .overlay-card4phone {
+        height: 100%;
+      }
+      .card4smile:hover .overlay-card4smile {
+        height: 100%;
+      }
+      .text-card4taxi ,.text-card4phone ,.text-card4smile {
+        color: var(--CLOUD, #F4F4FD);
+        font-family: Roboto;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
 .card-second {
     margin-left: 156px;
     margin-top: 80px;
