@@ -879,7 +879,7 @@ letter-spacing: 0.64px;
       .card1-first:hover .overlay-card1 {
         height: 100%;
       }
-      .card2-box:hover .overlay-card2 {
+      .card2-first:hover .overlay-card2 {
         height: 100%;
       }
       .card3-first:hover .overlay-card3 {
