@@ -132,16 +132,16 @@ box-sizing: border-box;
 .target > a {
  text-decoration: none;
 }
-a.connect-1:hover, a.connect-1:active {
+a.connect-1:hover ,a.connect-2:hover, a.connect-3:hover{
     color: darkblue;
+    border-bottom: 3px solid blue;
+    height: 40px;
 }
-a.connect-2:hover, a.connect-2:active {
+a.connect-1.active ,a.connect-2.active ,a.connect-3.active {
     color: darkblue;
+    border-bottom: 3px solid blue;
+    height: 40px;
 }
-a.connect-3:hover, a.connect-3:active {
-    color: darkblue;
-}
-
 .contact-info > ul{
     width: 345px;
     margin-left: 332px;
@@ -673,15 +673,15 @@ position: absolute;
     footer > .container-icon {
         display: flex;
     }
-    .container-icon > .last {
-        color: var(--CLOUD, #F4F4FD);
-        /* Body */
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px; /* 150% */
-        letter-spacing: 0.32px;
+    .last p {
+    color: var(--CLOUD, #F4F4FD);
+/* Body */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
         width: 264px;
         height: 80px;
         flex-shrink: 0;
@@ -762,7 +762,6 @@ align-items: center;
 border-radius: 4px;
 border: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: var(--CLOUD, #F4F4FD);
-border: 1px solid var(--CORNFLOWER, #E7E9FC);
       
     }
     .container .button2 {
@@ -774,7 +773,6 @@ align-items: center;
 border-radius: 4px;
 border: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: var(--CLOUD, #F4F4FD);
-border: 1px solid var(--CORNFLOWER, #E7E9FC);
     }
     .button2 {
         color: var(--IRIS, #4D5AE5);
@@ -799,7 +797,6 @@ align-items: center;
 border-radius: 4px;
 border: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: var(--CLOUD, #F4F4FD);
-border: 1px solid var(--CORNFLOWER, #E7E9FC);
     }
     .button3 {
         color: var(--IRIS, #4D5AE5);
@@ -824,7 +821,6 @@ border-radius: 4px;
 border: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: var(--CLOUD, #F4F4FD);
 margin-left: 24px;
-border: 1px solid var(--CORNFLOWER, #E7E9FC);
     }
     .button4 {
         color: var(--IRIS, #4D5AE5);
@@ -843,6 +839,47 @@ letter-spacing: 0.64px;
         margin-top: 72px;
         margin-left: 156px;
         gap: 24px;
+    }
+    .card1-first ,.card2-box ,.card3-first {
+        position: relative;
+        width: 360px;
+    }
+    .overlay-card1 ,.overlay-card2 ,.overlay-card3 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 100;
+        background-color: #008CBA;
+        overflow: hidden;
+        width: 360px;
+        height: 0;
+        transition: .3s ease;
+      }
+      .card1-first:hover .overlay-card1 {
+        height: 100%;
+      }
+      .card2-box:hover .overlay-card2 {
+        height: 100%;
+      }
+      .card3-first:hover .overlay-card3 {
+        height: 100%;
+      }
+      .text-card1 , .text-card2 ,.text-card3  {
+        color: var(--CLOUD, #F4F4FD);
+        font-family: Roboto;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    .image .card1 ,.card2 ,.card3 {
+        position: absolute;
+        width: 360px;
+        height: 300px;
     }
     .card2-box {
         width: 360px;
@@ -865,7 +902,7 @@ letter-spacing: 0.32px;
     }
  .card3 {
         margin-left: 24px;
-    }
+
      h3 {
         display: flex
         background-color: tomato;
@@ -885,6 +922,295 @@ letter-spacing: 0.32px;
         width: 143px;
         height: 24px;
     }
+=======
+  
+    .card-container {
+        display: flex;
+        padding-right: 16px;
+        margin-left: 156px;
+        margin-top: 32px;
+    }
+    
+    .bank h3{
+        width: 360px;
+        padding-left: 16px;
+        padding-right: 16px;
+        box-sizing: border-box;
+        color: var(--NAVY-BLUE, #2E2F42);
+/* Header 3 */
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 120% */
+letter-spacing: 0.4px;
+    }
+    .cash h3{
+        box-sizing: border-box;
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 360px;
+        margin-left: 24px;
+        color: var(--NAVY-BLUE, #2E2F42);
+        /* Header 3 */
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 120% */
+        letter-spacing: 0.4px;
+    }
+    
+    .med h3{
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 360px;
+        margin-left: 24px;
+        color: var(--NAVY-BLUE, #2E2F42);
+        /* Header 3 */
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 120% */
+        letter-spacing: 0.4px;
+    }
+    .app-container {
+        display: flex;
+        margin-left: 156px;
+    margin-top: 8px;
+    }
+    .app p{
+        width: 360px;
+        height: 24px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .app1 p{
+        width: 360px;
+        height: 24px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-left: 24px;
+    }
+    .app2 p{
+        width: 360px;
+        height: 24px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-left: 24px;
+    }
+    p {
+color: var(--SLATE, #434455);
+/* Body */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+box-sizing: border-box;
+    }
+    .card4taxi ,.card4phone ,.card4smile {
+        position: relative;
+        width: 360px;
+    }
+    .overlay-card4taxi ,.overlay-card4phone ,.overlay-card4smile{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 100;
+        background-color: #008CBA;
+        overflow: hidden;
+        width: 360px;
+        height: 0;
+        transition: .3s ease;
+      }
+      .card4taxi:hover .overlay-card4taxi {
+        height: 100%;
+      }
+      .card4phone:hover .overlay-card4phone {
+        height: 100%;
+      }
+      .card4smile:hover .overlay-card4smile {
+        height: 100%;
+      }
+      .text-card4taxi ,.text-card4phone ,.text-card4smile {
+        color: var(--CLOUD, #F4F4FD);
+        font-family: Roboto;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+.card-second {
+    margin-left: 156px;
+    margin-top: 80px;
+    height: 300px;
+    display: flex;
+    gap: 24px;
+}
+.card-container2 {
+    display: flex;
+    margin-left: 156px;
+    gap: 24px;
+    margin-top: 32px;
+}
+.Taxi h3{
+    width: 360px;
+    height: 24px;
+    box-sizing: border-box;
+    padding-left: 16px;
+    color: var(--NAVY-BLUE, #2E2F42);
+/* Header 3 */
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 120% */
+letter-spacing: 0.4px;
+}
+.app-container2 {
+    display: flex;
+    padding-right: 16px;
+margin-top: 8px;
+}
+.app3 p{
+    width: 360px;
+    height: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 156px;
+}
+.app4 {
+    width: 360px;
+    height: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 24px;
+}
+.app5 {
+    width: 360px;
+    height: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 24px;
+}
+.app-container2 > p {
+    color: var(--SLATE, #434455);
+/* Body */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+}
+.card5face ,.card5fruit ,.card5coffee {
+    position: relative;
+    width: 360px;
+}
+.overlay-card5face ,.overlay-card5fruit ,.overlay-card5coffee {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 100;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 360px;
+    height: 0;
+    transition: .3s ease;
+  }
+  .card5face:hover .overlay-card5face {
+    height: 100%;
+  }
+  .card5fruit:hover .overlay-card5fruit {
+    height: 100%;
+  }
+  .card5coffee:hover .overlay-card5coffee {
+    height: 100%;
+  }
+  .text-card5face ,.text-card5fruit ,.text-card5coffee {
+    color: var(--CLOUD, #F4F4FD);
+    font-family: Roboto;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.card-third {
+    margin-left: 156px;
+    margin-top: 80px;
+    height: 300px;
+    display: flex;
+    gap: 24px;
+}
+.card-container3 {
+    display: flex;
+    margin-left: 156px;
+    gap: 24px;
+    margin-top: 32px;
+}
+.stories h3{
+    width: 360px;
+    height: 24px;
+    box-sizing: border-box;
+    padding-left: 16px;
+    color: var(--NAVY-BLUE, #2E2F42);
+/* Header 3 */
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 120% */
+letter-spacing: 0.4px;
+}
+.app-container3 {
+    display: flex;
+    padding-right: 16px;
+margin-top: 8px;
+}
+.app6 p{
+    width: 360px;
+    height: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 156px;
+}
+.app7 p {
+    width: 360px;
+    height: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 24px;
+}
+.app8 p {
+    width: 360px;
+    height: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 24px;
+}
+.app-container3 > p {
+    color: var(--SLATE, #434455);
+/* Body */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+}
+
+
     
 
 
