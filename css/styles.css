@@ -137,10 +137,11 @@ a.connect-1:hover ,a.connect-2:hover, a.connect-3:hover{
     border-bottom: 3px solid blue;
     height: 40px;
 }
-a.connect-1.active ,a.connect-2.active ,a.connect-3.active {
+a.coneect-1.active {
     color: darkblue;
     border-bottom: 3px solid blue;
     height: 40px;
+    background-color: tomato;
 }
 .contact-info > ul{
     width: 345px;
