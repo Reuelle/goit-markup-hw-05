@@ -162,7 +162,7 @@ a.connect-1:hover ,a.connect-2:hover, a.connect-3:hover{
 }
 .modal {
     margin-left: 516px;
-    margin-top: 0px;
+    margin-top: 8px;
     width: 408px;
     height: 584px;
     position: absolute;
@@ -171,6 +171,18 @@ a.connect-1:hover ,a.connect-2:hover, a.connect-3:hover{
 background: var(--DAIRY, #FCFCFC);
 box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
 }
+.modal button {
+    width: 24px;
+    height: 24px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin-left: 360px;
+    margin-top: 24px;
+    padding: 0;
+}
+.close {
+}
+
 .contact-info ul {
     list-style-type: none;
     display: flex;
@@ -186,7 +198,7 @@ align-items: center;
 background-repeat: no-repeat;
 background-position: center center;
 border: 1px solid grey;
-
+position: static;
 }
  .overlay {
     width: 100%;
