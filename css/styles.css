@@ -249,7 +249,6 @@ background: var(--IRIS, #4D5AE5);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 margin-left: 636px;
 margin-top: 48px;
-border: none;
 }
 .goal {
 display: flex;
