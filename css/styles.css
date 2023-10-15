@@ -162,7 +162,7 @@ a.connect-1:hover ,a.connect-2:hover, a.connect-3:hover{
 }
 .modal {
     margin-left: 516px;
-    margin-top: 80px;
+    margin-top: 0px;
     width: 408px;
     height: 584px;
     position: absolute;
@@ -186,6 +186,7 @@ align-items: center;
 background-repeat: no-repeat;
 background-position: center center;
 border: 1px solid grey;
+
 }
  .overlay {
     width: 100%;
