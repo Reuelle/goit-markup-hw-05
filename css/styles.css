@@ -136,9 +136,8 @@ a.connect-1:hover ,a.connect-2:hover, a.connect-3:hover{
     color: darkblue;
     border-bottom: 3px solid blue;
     height: 40px;
-    background-color: tomato;
 }
-.main a .connect-1 {
+.contact > a:active  {
     color: darkblue;
     border-bottom: 3px solid blue;
     height: 40px;
