@@ -162,7 +162,7 @@ a.connect-1:hover ,a.connect-2:hover, a.connect-3:hover{
 }
 .modal {
     margin-left: 518px;
-    margin-top: 8px;
+    margin-top: 80px;
     width: 408px;
     height: 584px;
     position: absolute;
@@ -178,7 +178,6 @@ box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0
     fill: var(--CORNFLOWER, #E7E9FC);
 stroke-width: 1px;
 stroke: rgba(0, 0, 0, 0.10);
-justify-content: center;
 margin-left: 330px;
 margin-top: 15px;
 border-radius: 4px;
