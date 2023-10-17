@@ -743,10 +743,12 @@ letter-spacing: 0.32px;
         text-decoration: none;
     }
     .container {
+        width: 1440px;
+        height: 48px;
         display: flex;
         margin-top: 100px;
     }
-     .container .button-first {
+ .box-first {
         box-sizing: border-box;
         margin-left: 427px;
         width: 69px;
@@ -756,23 +758,11 @@ align-items: flex-start;
 border-radius: 4px;
 box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
     }
-    .button-first .buttono {
+    .box-first .all {
+        width: 21px;
+        height: 24px;
         color: var(--WHITE, #FFF);
         text-align: center;
-        
-        /* Button Text */
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px; /* 150% */
-        letter-spacing: 0.64px;
-        background-color: tomato;
-    }
-    .button1 {
-        color: var(--IRIS, #4D5AE5);
-        text-align: center;
-        
         /* Button Text */
         font-family: Roboto;
         font-size: 16px;
@@ -781,8 +771,9 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0
         line-height: 24px; /* 150% */
         letter-spacing: 0.64px;
     }
-    .button-second .button1 {
-        background-color: tomato;
+    .box-second {
+        margin-left: 24px;
+        box-sizing: border-box;
         width: 120px;
         height: 48px;
         margin-left: 24px;
@@ -795,7 +786,45 @@ border: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: var(--CLOUD, #F4F4FD);
       
     }
-    .container .button2 {
+    .box-second p {
+        color: var(--IRIS, #4D5AE5);
+        text-align: center;
+        
+        /* Button Text */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+        letter-spacing: 0.64px;
+        background-color: red;
+    }
+    .box-third {
+        margin-left: 24px;
+        box-sizing: border-box;
+        display: flex;
+        padding: 12px 24px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+border: 1px solid var(--CORNFLOWER, #E7E9FC);
+background: var(--CLOUD, #F4F4FD);
+
+    }
+     .box-third .app {
+        color: var(--IRIS, #4D5AE5);
+        text-align: center;
+        
+        /* Button Text */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+        letter-spacing: 0.64px;;
+    }
+    .box-fourth {
+        box-sizing: border-box;
         margin-left: 24px;
         display: flex;
 padding: 12px 24px;
@@ -804,22 +833,22 @@ align-items: center;
 border-radius: 4px;
 border: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: var(--CLOUD, #F4F4FD);
+  
     }
-    .button2 {
+     .box-fourth .design {
         color: var(--IRIS, #4D5AE5);
-text-align: center;
-
-/* Button Text */
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px; /* 150% */
-letter-spacing: 0.64px;
+        text-align: center;
+        
+        /* Button Text */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+        letter-spacing: 0.64px;
     }
-    .container .button3 {
-        width: 101px;
-        height: 48px;
+    .box-fifth {
+        box-sizing: border-box;
         margin-left: 24px;
         display: flex;
 padding: 12px 24px;
@@ -828,42 +857,19 @@ align-items: center;
 border-radius: 4px;
 border: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: var(--CLOUD, #F4F4FD);
+ 
     }
-    .button3 {
-        color: var(--IRIS, #4D5AE5);
-text-align: center;
-
-/* Button Text */
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px; /* 150% */
-letter-spacing: 0.64px;
-    }
-    .container .button4 {
-        width: 126px;
-        height: 48px;
-        display: flex;
-padding: 12px 24px;
-justify-content: center;
-align-items: center;
-border-radius: 4px;
-border: 1px solid var(--CORNFLOWER, #E7E9FC);
-background: var(--CLOUD, #F4F4FD);
-margin-left: 24px;
-    }
-    .button4 {
-        color: var(--IRIS, #4D5AE5);
-text-align: center;
-
-/* Button Text */
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px; /* 150% */
-letter-spacing: 0.64px;
+    .box-fifth > p {
+        color: red;
+        text-align: center;
+        
+        /* Button Text */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+        letter-spacing: 0.64px;
     }
     .Card-first {
         margin-left: 156px;
